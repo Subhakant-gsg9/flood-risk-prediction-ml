@@ -3,9 +3,11 @@ from streamlit_folium import st_folium
 import streamlit as st
 import pandas as pd
 import joblib
-from geo_features.dem_utils import get_elevation
+from geo_features.dem_utils import get_elevation, load_dem
 from geopy.geocoders import Nominatim
 
+# Load DEM data at app startup
+load_dem()
 # Load trained model
 model = joblib.load("models/flood_model.pkl")
 # ===============================
