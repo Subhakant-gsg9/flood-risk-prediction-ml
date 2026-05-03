@@ -11,7 +11,7 @@ The application processes DEM (Digital Elevation Model) data and uses a trained 
 
 ## 🛠️ Technologies Used
 
-- Python 3.11
+- Python 3.11.9
 - Streamlit
 - Scikit-learn
 - Pandas
@@ -83,6 +83,10 @@ The project uses a trained classification model built with **Scikit-learn** to p
 
 ## 👩‍💻 Author
 
-Your Name  
-B.Tech Project – Flood Prediction using Machine Learning  
+Subhakanta Mishra 
+B.Tech Project – Flood Prediction system using Machine Learning  
 Year: 2026
+## Note:
+The DEM (.tif) file is not included due to GitHub size limitations.
+Download SRTM DEM data from:
+https://earthexplorer.usgs.gov/
